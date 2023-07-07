@@ -1,0 +1,41 @@
+section {
+  margin-bottom: 30px;
+}
+.container {
+  margin: 0px 30px;
+}
+.flex {
+  display: flex;
+}
+.box-song {
+  border: 1px solid black;
+  width: 20%;
+  padding: 10px;
+  margin: 0 10px;
+}
+.box-song img {
+  height: 150px;
+  object-fit: cover;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+.box-song img:hover {
+  transform: scale(1.1);
+}
+#allsong h1 {
+  text-align: center;
+}
+#allsong .header {
+  background-color: green;
+  color: white;
+  padding: 5px 0px;
+  margin-bottom: 30px;
+}
+#play {
+  position: fixed;
+  bottom: 0;
+  background-color: yellowgreen;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
